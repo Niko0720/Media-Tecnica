@@ -1,26 +1,41 @@
 .tarjeta{
     display: flex;
-    flex-direction:column;
-    justify-content:space-between;
-    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 400px;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(15, 16, 83);
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
+    border-radius:15%;
     font-family: sans-serif;
 }
 
 .titulo{
-    font-size: 40px;
-    padding: 10px 10px 0 10px;;
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
 }
 
 .cuerpo{
     padding:10px;
 }
 
-.img{
+img{
     border-radius: 50%;
-    width:350px;
-    height:350px    
+    width:400px;
+    height:400px;
 }
+
+h1{
+    text-align: center;
+}
+
+#items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color:lightgrey
+}
+
